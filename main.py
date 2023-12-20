@@ -1,7 +1,8 @@
 
 import telebot
 import yt_dlp as youtube_dl
-from . import key
+import key
+import os
 
 
 bot = telebot.TeleBot(key.api_key)
